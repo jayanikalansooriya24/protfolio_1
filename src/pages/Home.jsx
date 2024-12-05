@@ -9,18 +9,18 @@ import video3 from "../assets/3.mp4"; // Path to video 3
 
 import androidLogo from "../assets/android.png";
 import figmaLogo from "../assets/figma.png";
-import htmlLogo from "../assets/html.webp";
-import javaLogo from "../assets/java.webp";
+import htmlLogo from "../assets/html.png";
+import javaLogo from "../assets/java.png";
 import microsoftLogo from "../assets/micro.png";
 import mongoLogo from "../assets/mongo.png";
 import nodeLogo from "../assets/node.png";
 import reactLogo from "../assets/react.png";
 import sqlLogo from "../assets/sql.png";
-import cPlusPlusLogo from "../assets/c++.jpeg";
-import cssLogo from "../assets/css.webp";
-import githubLogo from "../assets/github.jpg";
-import jiraLogo from "../assets/jira.jpeg";
-import jsLogo from "../assets/js.webp";
+import cPlusPlusLogo from "../assets/c++.png";
+import cssLogo from "../assets/css.png";
+import githubLogo from "../assets/github.png";
+import jiraLogo from "../assets/jira.png";
+import jsLogo from "../assets/js.png";
 
 import instagramIcon from "../assets/inster.png";
 import linkedinIcon from "../assets/link.png";
