@@ -17,6 +17,120 @@ body {
   min-height: 100vh; /* Full viewport height */
 }
 
+/* Responsive Adjustments */
+
+/* Navigation Bar */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column; /* Stack navigation items vertically */
+    padding: 10px 15px; /* Reduce padding */
+    gap: 10px; /* Add spacing between items */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Stack navigation links vertically */
+    gap: 10px; /* Add spacing between links */
+  }
+
+  .nav-links a {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  nav button {
+    font-size: 0.9rem; /* Reduce button font size */
+    padding: 8px 15px; /* Reduce button padding */
+  }
+}
+
+/* Hero Section */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column; /* Stack the image and text */
+    text-align: center;
+  }
+
+  .hero-left {
+    margin-bottom: 20px; /* Add spacing below the image */
+  }
+
+  .profile-image {
+    width: 200px; /* Adjust the image size */
+    height: 200px;
+  }
+
+  .hero-right h1 {
+    font-size: 2rem; /* Adjust font size */
+  }
+
+  .hero-right h3 {
+    font-size: 1.2rem; /* Adjust subtitle size */
+  }
+
+  .hero-right p {
+    font-size: 0.9rem; /* Adjust paragraph size */
+    line-height: 1.4;
+  }
+}
+
+/* Projects Section */
+@media (max-width: 768px) {
+  .projects-container {
+    flex-direction: column; /* Stack project cards vertically */
+    gap: 15px; /* Add spacing between cards */
+  }
+
+  .project-card {
+    width: 90%; /* Adjust card width */
+    margin: 0 auto; /* Center the cards */
+  }
+}
+
+/* Skills Section */
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column; /* Stack skill cards vertically */
+    align-items: center; /* Center skill cards */
+    gap: 15px; /* Add spacing between cards */
+  }
+
+  .skill-card {
+    width: 90%; /* Adjust card width */
+    padding: 15px; /* Adjust padding */
+  }
+
+  .skill-logo {
+    width: 60px; /* Adjust logo size */
+    height: 60px;
+  }
+
+  .skill-card p {
+    font-size: 0.9rem; /* Adjust text size */
+  }
+}
+
+/* Footer */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column; /* Stack footer sections vertically */
+    text-align: center; /* Center the content */
+    padding: 15px; /* Reduce padding */
+  }
+
+  footer .footer-social {
+    margin-top: 15px; /* Add spacing above the social icons */
+  }
+
+  footer .social-icons {
+    justify-content: center; /* Center the social icons */
+    gap: 10px; /* Reduce spacing between icons */
+  }
+
+  footer .social-icons img {
+    width: 40px; /* Adjust icon size */
+    height: 40px;
+  }
+}
+
 /* Navigation Bar */
 
 nav {
